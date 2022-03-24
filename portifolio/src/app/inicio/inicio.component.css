@@ -1,0 +1,21 @@
+.bor{
+    border-radius: 20PX;
+    min-height: 200px;
+    max-height: 500px;
+    min-width: 400px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: relative;
+    transition: top ease 0.5s;
+    top: 0;
+    text-align: center;
+}
+
+
+.bor2{
+    color: #FF0A54;
+    margin: 20px;
+    margin-bottom: 50px;
+}
