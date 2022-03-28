@@ -112,11 +112,11 @@ html{
 .grid{
     display: grid;
     list-style: none;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 200fr 0fr;
     margin: 50px;
     grid-gap: 50px;
     max-width: 1500px;
-    min-width: 400px;
+    min-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -138,12 +138,12 @@ html{
 
 
 .whos{
-    color: #FF0A54;
+    color: #6017a5;
     margin: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .paragrafo{
-    margin: 20px 50px;
+    margin: 20px 20px;
     text-align: start;
     color: white;
 
@@ -161,7 +161,7 @@ ul{
 }
 .whos2{
     text-align: start;
-    color: #FF0A54;
+    color: #6017a5;
     margin: 20px;
 }
 
@@ -281,29 +281,29 @@ a{
 }
 
 .whosmateus:hover{
-    border: 1px solid #FF0A54;
+    border: 1px solid #ffffff;
     color: #FF0A54;
     top: -20px; 
 }
 .list:hover{
-    border: 1px solid #FF0A54;
+    border: 1px solid #ffffff;
     color: #FF0A54;
     top: -20px;  
 }
 
 .list2:hover{
-    border: 1px solid #FF0A54;
+    border: 2px solid #ffffff;
     color: #FF0A54;
     top: -20px;
 }
 
 .list3:hover{
-    border: 1px solid #FF0A54;
+    border: 1px solid #ffffff;
     color: #FF0A54;
     top: -20px;
 }
 .list4:hover{
-    border: 1px solid #FF0A54;
+    border: 1px solid #ffffff;
     color: #FF0A54;
     top: -20px;
 }
