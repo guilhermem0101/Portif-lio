@@ -143,9 +143,10 @@ html{
     margin-bottom: 30px;
 }
 .paragrafo{
-    margin: 20px 20px;
+    margin: 30px 30px 30px 30px;
     text-align: start;
     color: white;
+    font-size:large;
 
 }
 
