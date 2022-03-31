@@ -16,7 +16,9 @@
     color: #FF0A54;
     top: -5px;
 }
-
+.alinhamento{
+    text-align: center;
+}
 .indice{
     position: relative;
     margin: 50px 25px;
@@ -309,3 +311,18 @@ a{
     top: -20px;
 }
 
+.cordaletra{
+    color: white;
+}
+.cordobotao{
+    color:#000000
+}
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: none;
+  }
