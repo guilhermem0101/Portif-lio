@@ -1,35 +1,23 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
-  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-      <ul class="navbar-nav mr-auto d-flex align-items-center">
-        <li class="nav-item active">
-          <img src="https://i.imgur.com/mLWisfV.jpg" alt="" width="50px" height="50px" class="img-fluid rounded-circle">
-        </li>
-        <li class="nav-item p-3">
-          <p class="m-0 font-weight-bold text-white fs-16">Olá</p> 
-        </li> 
-        <li class="nav-item p-3">
-            <a href="">
-                <p class= "text-white fs-14 m-0"><i class="fa fa-pencil-square-o " aria-hidden="true"></i>
-                </p>
-            </a>    
-        </li>
-      </ul>
+<input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button"/>
 
-      <ul class="navbar-nav ml-auto d-flex align-items-center">
-        <li class="nav-item p-3">
-            <a class="m-0 font-weight-bold text-white fs-16">sair</a>
-            <a href="">
-                <p class= "text-white fs-14 m-0">
-                  <i class="fa fa-sign-out" aria-hidden="true"></i>
-                </p>
-            </a>
-        </li> 
-      </ul>
+<label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+<div class="barra">
+<div class="menu-centro">
+  <div class="barra-conteiner centralizador">
+    <div class="logo esquerda">
+      <a href="index.html"
+        ><img src="/assets/img/logo.png" alt="logo"
+      /></a>
     </div>
-  </nav>
-
+    <nav class="direita">
+      <ul onclick="getElementById('close-menu').checked=false;">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre-mim">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</div>
