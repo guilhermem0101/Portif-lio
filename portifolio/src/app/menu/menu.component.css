@@ -30,17 +30,12 @@ a {
 }
 
 a:hover {
- color: rgb(208, 255, 0);
+ color: rgb(68, 78, 24);
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
 
-.logo {
-    padding: 15px 0;
-}
+
+
 
 .barra {
     width: 100%;
@@ -110,10 +105,7 @@ img {
 
 
 
-.desenho2 {
-    position:relative;
-    animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
-}
+
 
 .close-menu {
     display: none;
@@ -164,6 +156,7 @@ img {
    
 
     
+
 
 }
 
