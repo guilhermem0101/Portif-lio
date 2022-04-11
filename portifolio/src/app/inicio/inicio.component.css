@@ -39,8 +39,8 @@ a{
     color: white;
 }
 .foto{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     border-radius: 500px;
 
     padding: 10px;
@@ -115,41 +115,30 @@ html{
     display: grid;
     list-style: none;
     grid-template-columns: 200fr 0fr;
-    margin: 50px;
-    grid-gap: 50px;
-    max-width: 1500px;
-    min-width: 700px;
+    margin: 20px;
+    grid-gap: 30px;
+    max-width: 2100px;
+    min-width: 660px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.whosmateus{
-    border-radius: 20PX;
-    min-height: 200px;
-    max-height: 500px;
-    min-width: 300px;
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    position: relative;
-    transition: top ease 0.5s;
-    top: 0;
-    text-align: center;
-}
 
 
 .whos{
-    color: #0300d1;
+    color: #b45e0d;
     margin: 20px;
     margin-bottom: 30px;
 }
 .paragrafo{
-    margin: 30px 30px 30px 30px;
+    margin: 10px 30px 10px 30px;
     text-align: start;
     color: white;
     font-size:large;
-    font-style:unset
+    font-style:unset;
+    min-width: 10px;
+    max-width: 2000px;
+    
 
 }
 
@@ -165,8 +154,10 @@ ul{
 }
 .whos2{
     text-align: start;
-    color: #0300d1;
+    color: #b45e0d;
     margin: 20px;
+    min-width: 100px;
+    max-width: 2000px;
 }
 
 .list2{
@@ -175,6 +166,8 @@ ul{
     position: relative;
     transition: top ease 0.5s;
     top: 0;
+    min-width: 100px;
+    max-width: 2000px;
 }
 .list3{
     
@@ -195,12 +188,7 @@ ul{
     transition: top ease 0.5s;
     top: 0;
 }
-.euzinho{
-    border-radius: 70px;
-    margin-top: 275px;
-    padding: 10px;
-    border: 2px solid #FF0A54;
-}
+
 .atributo{
     border-radius: 50px;
     margin-top: 20px;
@@ -299,6 +287,8 @@ a{
     border: 2px solid #ffffff;
     color: #FF0A54;
     top: -20px;
+    min-width: 100px;
+    max-width: 2000px;
 }
 
 .list3:hover{
