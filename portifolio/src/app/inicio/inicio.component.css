@@ -166,8 +166,9 @@ ul{
     position: relative;
     transition: top ease 0.5s;
     top: 0;
-    min-width: 100px;
+    min-width: 600px;
     max-width: 2000px;
+    
 }
 .list3{
     
