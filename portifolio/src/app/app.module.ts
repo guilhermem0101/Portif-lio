@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { TesteComponent } from './teste/teste.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { TesteComponent } from './teste/teste.component';
     MenuComponent,
     RodapeComponent,
     InicioComponent,
-    TesteComponent
+    
   ],
   imports: [
     BrowserModule,
