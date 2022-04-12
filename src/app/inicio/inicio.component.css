@@ -12,10 +12,7 @@
     color: white;
     
 }
-.indice:hover{
-    color: #FF0A54;
-    top: -5px;
-}
+
 .alinhamento{
     text-align: center;
 }
@@ -67,9 +64,6 @@ a{
 .text1{
     margin-top: 120px;
 }
-.nome{
-    color: #FF0A54;
-}
 
 .navrosa{
     position: absolute;
@@ -116,9 +110,9 @@ html{
     list-style: none;
     grid-template-columns: 200fr 0fr;
     margin: 20px;
-    grid-gap: 30px;
+    grid-gap: 20px;
     max-width: 2100px;
-    min-width: 660px;
+    min-width: 620px;
     margin-left: auto;
     margin-right: auto;
 }
