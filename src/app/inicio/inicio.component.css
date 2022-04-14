@@ -293,8 +293,4 @@ a{
 .cordobotao{
     color:#000000
 }
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
 
