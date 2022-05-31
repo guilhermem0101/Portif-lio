@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Play', sans-serif;
+    
 }
 
 .navbar{
@@ -11,6 +12,10 @@
     justify-content: center;
     color: white;
     
+}
+#responsivo{
+    width: 100%;
+    height: auto;
 }
 
 .alinhamento{
@@ -108,11 +113,11 @@ html{
 .grid{
     display: grid;
     list-style: none;
-    grid-template-columns: 200fr 0fr;
+   
     margin: 20px;
     grid-gap: 20px;
-    max-width: 2100px;
-    min-width: 630px;
+ 
+   
     margin-left: auto;
     margin-right: auto;
 }
@@ -129,11 +134,14 @@ html{
     text-align: start;
     color: white;
     font-size:large;
-    font-style:unset;
-    min-width: 10px;
-    max-width: 2000px;
+  
+  
     
 
+}
+
+.espaçamento{
+    
 }
 
 ul{
@@ -149,9 +157,7 @@ ul{
 .whos2{
     text-align: start;
     color: #b45e0d;
-    margin: 20px;
-    min-width: 100px;
-    max-width: 2000px;
+   
 }
 
 .list2{
@@ -160,21 +166,20 @@ ul{
     position: relative;
     transition: top ease 0.5s;
     top: 0;
-    min-width: 600px;
-    max-width: 2000px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     
 }
 .list3{
     
     border-radius: 20px;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 50px;
-    color: white;
     position: relative;
     transition: top ease 0.5s;
     top: 0;
+    
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .list4{
     
@@ -257,11 +262,7 @@ a{
     text-align: center;
 }
 
-.whosmateus:hover{
-    border: 1px solid #ffffff;
-    color: #FF0A54;
-    top: -20px; 
-}
+
 .list:hover{
     border: 1px solid #ffffff;
     color: #FF0A54;
@@ -270,10 +271,9 @@ a{
 
 .list2:hover{
     border: 2px solid #ffffff;
-    color: #FF0A54;
-    top: -20px;
-    min-width: 100px;
-    max-width: 2000px;
+   
+    top: -30px;
+    
 }
 
 .list3:hover{
